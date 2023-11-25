@@ -72,7 +72,7 @@
 .twoText {
   margin-top: -500px;
   font-size: 25px;
-  margin-left: 350px;
+  margin-left: 250px;
   color: rgb(49, 46, 46);
   width: 700px;
   text-align: justify;
@@ -102,14 +102,14 @@
 
 .threeCloud {
   height: 700px;
-  margin-left: 650px;
+  margin-left: 550px;
   margin-top: 250px;
   /* z-index: 3; */
 }
 
 .fourCloud {
   height: 700px;
-  margin-left: 350px;
+  margin-left: 150px;
   margin-top: 150px;
 }
 

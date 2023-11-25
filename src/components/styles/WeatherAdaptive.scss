@@ -1,0 +1,167 @@
+@media screen and (min-width: 768px) and (max-width: 1020px) {
+    .mainWeather {
+        margin-top: 500px;
+        align-items: center;
+        text-align: center;
+        .weatherNameApp{
+            font-size: 30px;
+            color: rgb(241, 241, 241);
+            margin-bottom: 100px;
+        }
+            .weatherInputApp{
+                height: 60px;
+                width: 200px;
+                margin-right: 50px;
+                cursor: pointer;
+                color: rgb(241, 241, 241);
+                border-radius: 5px;
+                box-sizing: border-box;
+                border: solid 1px;
+                background-image: url('../../img/sky.jpg');
+                background-position: 500px;
+                font-size: 16px;
+            }
+            .weatherInputApp::placeholder{
+                color: rgb(241, 241, 241);
+                font-size: 16px;
+                margin: 0 auto;
+                text-size-adjust: 30px  ;
+            }
+        .weatherButtonApp{
+            height: 60px;
+            background-image: url('../../img/sky.jpg');
+            background-position: 500px;
+            border-radius: 5px;
+            border: solid 1px;
+            color: rgb(241, 241, 241);
+            font-size: 16x;
+        }
+    }
+    .weatherResultApp{
+        color: rgb(241, 241, 241);
+        border: solid 1px;
+        font-size: 16px;
+        box-sizing: border-box;
+        width: 550px;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+    
+}
+
+@media screen and (min-width: 420px) and (max-width: 766px) {
+    .mainWeather {
+        margin-top: 500px;
+        align-items: center;
+        text-align: center;
+        .weatherNameApp{
+            font-size: 30px;
+            color: rgb(241, 241, 241);
+            margin-bottom: 100px;
+        }
+            .weatherInputApp{
+                height: 60px;
+                width: 200px;
+                margin-right: 50px;
+                cursor: pointer;
+                color: rgb(241, 241, 241);
+                border-radius: 5px;
+                box-sizing: border-box;
+                border: solid 1px;
+                background-image: url('../../img/sky.jpg');
+                background-position: 500px;
+                font-size: 14px;
+            }
+            .weatherInputApp::placeholder{
+                color: rgb(241, 241, 241);
+                font-size: 14px;
+                margin: 0 auto;
+                text-size-adjust: 30px  ;
+            }
+        .weatherButtonApp{
+            height: 60px;
+            background-image: url('../../img/sky.jpg');
+            background-position: 500px;
+            border-radius: 5px;
+            border: solid 1px;
+            color: rgb(241, 241, 241);
+            font-size: 14x;
+        }
+    }
+    .weatherResultApp{
+        color: rgb(241, 241, 241);
+        border: solid 1px;
+        font-size: 16px;
+        box-sizing: border-box;
+        width: 400px;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+    
+}
+
+@media screen and (min-width: 320px) and (max-width: 418px) {
+    .mainWeather {
+        margin-top: 500px;
+        align-items: center;
+        text-align: center;
+        .weatherNameApp{
+            font-size: 25px;
+            color: rgb(241, 241, 241);
+            margin-bottom: 100px;
+        }
+        .weatherGroup{
+            display: flex;
+            justify-content: space-between;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+            .weatherInputApp{
+                height: 50px;
+                width: 200px;
+                margin-right: 50px;
+                cursor: pointer;
+                color: rgb(241, 241, 241);
+                border-radius: 5px;
+                box-sizing: border-box;
+                border: solid 1px;
+                background-image: url('../../img/sky.jpg');
+                background-position: 500px;
+                font-size: 12px;
+            }
+            .weatherInputApp::placeholder{
+                color: rgb(241, 241, 241);
+                font-size: 12px;
+                margin: 0 auto;
+                text-size-adjust: 30px  ;
+            }
+        .weatherButtonApp{
+            height: 50px;
+            width: 100px;
+            background-image: url('../../img/sky.jpg');
+            background-position: 500px;
+            border-radius: 5px;
+            border: solid 1px;
+            color: rgb(241, 241, 241);
+            font-size: 12x;
+        }
+    }
+    .weatherResultApp{
+        color: rgb(241, 241, 241);
+        border: solid 1px;
+        font-size: 16px;
+        box-sizing: border-box;
+        width: 300px;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+}

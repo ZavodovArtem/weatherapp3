@@ -2,6 +2,8 @@ import React from "react";
 import { Parallax } from "react-parallax";
 import './styles/Home.css'
 import './styles/Weather.css'
+import './styles/HomeAdaptive.scss'
+import './styles/WeatherAdaptive.scss'
 // import './styles/Weather.scss'
 import {useState} from "react";
 
@@ -53,7 +55,7 @@ function WeatherApi() {
             <Parallax bgImage="img/sky.jpg" strength={1600} className="weatherApiPar">
             <div className="mainWeather">
                 <h1 className="weatherNameApp">Приложение погоды</h1>
-                <div>
+                <div className="weatherGroup">
                     <input
                         className="weatherInputApp"
                         type="text"

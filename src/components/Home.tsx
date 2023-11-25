@@ -1,5 +1,6 @@
 import React from 'react';
 import '../components/styles/Home.css';
+import '../components/styles/HomeAdaptive.scss'
 import '../App.css';
 import { Parallax } from 'react-parallax';
 

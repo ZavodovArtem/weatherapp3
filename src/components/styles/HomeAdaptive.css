@@ -1,0 +1,321 @@
+@media screen and (min-width: 768px) and (max-width: 1020px) {
+  .main {
+    width: 768px;
+    margin: 0 auto;
+    padding: 0;
+    align-items: center;
+  }
+  .container {
+    width: "768px";
+    margin: "0 auto";
+    padding: "0";
+    align-items: "center";
+    position: "relative";
+  }
+  .imgTu1 {
+    position: absolute;
+    height: 1200px;
+    margin-top: -450px;
+    margin-left: 200px;
+    z-index: 10;
+  }
+  .imgTu2 {
+    position: absolute;
+    height: 650px;
+    margin-top: -340px;
+    margin-left: -400px;
+    z-index: 10;
+  }
+  .imgBl {
+    position: absolute;
+    height: 1200px;
+    margin-top: -650px;
+    z-index: 10;
+    display: none;
+  }
+  .oneCloud {
+    height: 600px;
+    margin-top: 100px;
+    margin-left: -100px;
+  }
+  .oneText {
+    margin-top: 500px;
+    font-size: 20px;
+    margin-left: 50px;
+    color: rgb(241, 241, 241);
+    width: 500px;
+    text-align: justify;
+  }
+  .twoText {
+    margin-top: -500px;
+    font-size: 20px;
+    margin-left: 200px;
+    color: rgb(49, 46, 46);
+    width: 500px;
+    text-align: justify;
+    /* z-index: 5; */
+  }
+  .threeCloud {
+    height: 700px;
+    margin-left: 250px;
+    margin-top: 250px;
+    /* z-index: 3; */
+  }
+  .fourCloud {
+    height: 700px;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+  .threeText {
+    /* margin-top: 100px; */
+    font-size: 20px;
+    margin-left: 100px;
+    color: rgb(241, 241, 241);
+    width: 500px;
+    text-align: justify;
+  }
+  .imgGr {
+    position: absolute;
+    height: 900px;
+    margin-top: -400px;
+    z-index: 9;
+    pointer-events: none;
+  }
+  .scroll {
+    text-align: center;
+    margin-bottom: 100px;
+  }
+}
+@media screen and (min-width: 420px) and (max-width: 766px) {
+  .main {
+    width: 420px;
+    margin: 0 auto;
+    padding: 0;
+    align-items: center;
+  }
+  .container {
+    width: "420px";
+    margin: "0 auto";
+    padding: "0";
+    align-items: "center";
+    position: "relative";
+  }
+  .name {
+    font-size: 16px;
+    text-align: center;
+    top: 200px;
+    color: rgb(241, 241, 241);
+    width: 200px;
+  }
+  .imgTu1 {
+    position: absolute;
+    height: 900px;
+    margin-top: -450px;
+    margin-left: 200px;
+    z-index: 10;
+    display: none;
+  }
+  .imgTu2 {
+    position: absolute;
+    height: 500px;
+    margin-top: -250px;
+    margin-left: -250px;
+    z-index: 10;
+  }
+  .oneCloud {
+    height: 400px;
+    margin-top: 100px;
+    margin-left: -150px;
+  }
+  .twoCloud {
+    height: 300px;
+    margin-top: 100px;
+    margin-left: -200px;
+  }
+  .oneText {
+    margin-top: 500px;
+    font-size: 16px;
+    margin-left: 50px;
+    color: rgb(241, 241, 241);
+    width: 300px;
+    text-align: justify;
+    align-items: center;
+  }
+  .twoText {
+    margin-top: -500px;
+    font-size: 16px;
+    margin-left: 50px;
+    color: rgb(49, 46, 46);
+    width: 300px;
+    text-align: justify;
+    align-items: center;
+    /* z-index: 5; */
+  }
+  .threeCloud {
+    height: 700px;
+    margin-left: -50px;
+    margin-top: 250px;
+    /* z-index: 3; */
+  }
+  .fourCloud {
+    height: 700px;
+    margin-left: -150px;
+    margin-top: 50px;
+  }
+  .threeText {
+    /* margin-top: 100px; */
+    font-size: 16px;
+    margin-left: 50px;
+    color: rgb(241, 241, 241);
+    width: 300px;
+    text-align: justify;
+    align-items: center;
+  }
+  .imgGr {
+    position: absolute;
+    height: 600px;
+    margin-top: -180px;
+    z-index: 9;
+    pointer-events: none;
+  }
+  .aWeather {
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    z-index: 15;
+  }
+  .textOverlay {
+    position: absolute;
+    z-index: 15;
+    top: 50%;
+    left: 50%;
+    color: chocolate;
+    font-size: 24px;
+    margin-left: -100px;
+    margin-top: -20px;
+  }
+  .scroll {
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  .imgBl {
+    position: absolute;
+    height: 1200px;
+    margin-top: -650px;
+    z-index: 10;
+    display: none;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 418px) {
+  .main {
+    width: 320px;
+    margin: 0 auto;
+    padding: 0;
+    align-items: center;
+  }
+  .container {
+    width: "320px";
+    margin: "0 auto";
+    padding: "0";
+    align-items: "center";
+    position: "relative";
+  }
+  .name {
+    font-size: 14px;
+    text-align: center;
+    top: 200px;
+    color: rgb(241, 241, 241);
+    width: 200px;
+  }
+  .imgBl {
+    position: absolute;
+    height: 1200px;
+    margin-top: -650px;
+    z-index: 10;
+    display: none;
+  }
+  .oneCloud {
+    height: 200px;
+    margin-top: 50px;
+    margin-left: -50px;
+    margin-bottom: 100px;
+  }
+  .imgTu1 {
+    position: absolute;
+    height: 900px;
+    margin-top: -450px;
+    margin-left: 200px;
+    z-index: 10;
+    display: none;
+  }
+  .imgTu2 {
+    position: absolute;
+    height: 800px;
+    margin-top: -400px;
+    margin-left: -650px;
+    z-index: 10;
+  }
+  .oneText {
+    margin-top: 500px;
+    font-size: 14px;
+    margin-left: 65px;
+    color: rgb(241, 241, 241);
+    width: 200px;
+    text-align: justify;
+    align-items: center;
+  }
+  .twoText {
+    margin-top: -500px;
+    font-size: 14px;
+    margin-left: 65px;
+    color: rgb(49, 46, 46);
+    width: 200px;
+    text-align: justify;
+    align-items: center;
+    /* z-index: 5; */
+  }
+  .threeCloud {
+    height: 700px;
+    margin-left: -60px;
+    margin-top: 250px;
+    /* z-index: 3; */
+  }
+  .fourCloud {
+    height: 300px;
+    margin-left: -250px;
+    margin-top: 100px;
+  }
+  .threeText {
+    /* margin-top: 100px; */
+    font-size: 14px;
+    margin-left: 65px;
+    color: rgb(241, 241, 241);
+    width: 200px;
+    text-align: justify;
+    align-items: center;
+  }
+  .aWeather {
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    z-index: 15;
+  }
+  .textOverlay {
+    position: absolute;
+    z-index: 15;
+    top: 50%;
+    left: 50%;
+    color: chocolate;
+    font-size: 22px;
+    margin-left: -100px;
+    margin-top: -20px;
+  }
+  .scroll {
+    text-align: center;
+    margin-bottom: 100px;
+  }
+}/*# sourceMappingURL=HomeAdaptive.css.map */
