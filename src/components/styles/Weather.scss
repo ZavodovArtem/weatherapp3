@@ -1,0 +1,112 @@
+.weatherApiPar{
+    height: 2000px;
+}
+
+.mainWeather {
+    margin-top: 500px;
+    align-items: center;
+    text-align: center;
+    .weatherNameApp{
+        font-size: 50px;
+        color: rgb(241, 241, 241);
+        margin-bottom: 100px;
+    }
+        .weatherInputApp{
+            height: 60px;
+            width: 200px;
+            margin-right: 50px;
+            cursor: pointer;
+            color: rgb(241, 241, 241);
+            border-radius: 5px;
+            box-sizing: border-box;
+            border: solid 1px;
+            background-image: url('../../img/sky.jpg');
+            background-position: 500px;
+            font-size: 18px;
+        }
+        .weatherInputApp::placeholder{
+            color: rgb(241, 241, 241);
+            font-size: 16px;
+            margin: 0 auto;
+            text-size-adjust: 30px  ;
+        }
+    .weatherButtonApp{
+        height: 60px;
+        background-image: url('../../img/sky.jpg');
+        background-position: 500px;
+        border-radius: 5px;
+        border: solid 1px;
+        color: rgb(241, 241, 241);
+        font-size: 18px;
+    }
+
+}
+
+// .weatherNameApp{
+//     font-size: 50px;
+//     color: rgb(241, 241, 241);
+//     margin-bottom: 100px;
+// }
+// .weatherInputApp{
+//     height: 60px;
+//     width: 200px;
+//     margin-right: 50px;
+//     cursor: pointer;
+//     color: rgb(241, 241, 241);
+//     border-radius: 5px;
+//     box-sizing: border-box;
+//     border: solid 1px;
+//     background-image: url('../../img/sky.jpg');
+//     background-position: 500px;
+//     font-size: 18px;
+    
+// }
+// .weatherInputApp::placeholder{
+//     color: rgb(241, 241, 241);
+//     font-size: 16px;
+//     margin: 0 auto;
+//     text-size-adjust: 30px  ;
+// }
+
+
+// .weatherButtonApp{
+//     height: 60px;
+//     background-image: url('../../img/sky.jpg');
+//     background-position: 500px;
+//     border-radius: 5px;
+//     border: solid 1px;
+//     color: rgb(241, 241, 241);
+//     font-size: 18px;
+// }
+
+.weatherResultApp{
+    color: rgb(241, 241, 241);
+    border: solid 1px;
+    font-size: 20px;
+    box-sizing: border-box;
+    width: 550px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.weatherResultAppH1{
+    font-size: 25px;
+    color: #FFDEAC;
+}
+
+.goHome{
+    border: solid 0.5px;
+    color: rgb(241, 241, 241);
+    border-radius: 5px;
+    padding: 0;
+    cursor: pointer;
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 100px;
+    height: 40px;
+    margin-top: 800px;
+}
